@@ -1,0 +1,16 @@
+<div class="portfolio">
+  <div class="card-wrapper">
+
+    <% @projects.each do |project| %>
+    <div class="portfolio-card">
+      <div class="portfolio-card-image">
+        <a class="project-link" href="<%= project.project_url %>"><img class="image" src="<%= project.image_url %>"></a>
+      </div>
+      <div class="portfolio-card-text">
+        <div class="portfolio-titles"><a class="project-link" href="<%= project.project_url %>"><%= project.title %></a></div>
+      </div>
+    </div>
+  <% end %>
+
+  </div>
+</div>
