@@ -1,6 +1,10 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  width: 100%;
+}
+
 header {
   background: #ffffff;
   border: 0;
@@ -66,10 +70,9 @@ header {
   background-image: url();
   background-size: cover;
   background-repeat: no-repeat;
-  filter: grayscale(100%);
-  color: #000000;
+  color: #FFFFFF;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 100px 0;
   font-size: 30px;
   line-height: 40px;
   max-width: 100%;
@@ -77,10 +80,19 @@ header {
   overflow: hidden;
 }
 
+// .translucent {
+//   height: 400px;
+//   width: 100%;
+//   opacity: 0.5;
+//   background-color: black;
+//   z-index: 2;
+// }
+
 p {
   margin: 0 0 15px 0;
   color: #fffff;
   font-family: Verdana;
+  z-index: 2;
 }
 
 // End of text over image styling
@@ -105,6 +117,7 @@ p {
 
 .portfolio-card {
   flex: 0 1 auto;
+  margin: 0 30px 0 0;
 }
 
 .portfolio-card-text{
@@ -116,8 +129,9 @@ p {
 .image {
   max-width: 300px;
   margin: 0;
-  border: 0;
-  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, .25);
+  padding: 10px 0;
+  // filter: grayscale(100%);
 }
 
 .project-link {
