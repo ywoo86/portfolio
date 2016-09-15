@@ -2,18 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 header {
-  position: relative;
   background: #ffffff;
   border: 0;
   margin: 0;
   padding: 0;
-  float: left;
   width: 100%;
-  display: block;
 }
 
 .header-wrapper {
-  float: left;
   width: 90%;
   margin: 0 auto;
   padding: 0, 5%;
@@ -22,36 +18,29 @@ header {
 
 .logo {
   float: left;
-  position: relative;
   border: 0;
   margin: 15px;
   padding: 0;
-  display: block;
   text-transform: uppercase;
   font-family: 'Chivo', sans-serif;
   font-size: 35px;
 }
 
 .links {
-  display: block;
   font-size: 20px;
   text-transform: uppercase;
   float: right;
   padding: 15px 0;
-  text-align: center;
 }
 
 .nav-menu {
   float: right;
-  list-style: none;
-  list-style-image: none;
   margin: 0;
 }
 
 .nav-menu li {
   display: inline;
   margin: 0 0 0 20px;
-  position: relative;
 }
 
 .twitter {
@@ -69,13 +58,14 @@ header {
   padding: 0;
   float: left;
   width: 100%;
-  display: block;
   text-align: center;
 }
 
 .api-container {
   background: teal;
   background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
   filter: grayscale(100%);
   color: #000000;
   margin: 0 auto;
@@ -131,8 +121,6 @@ p {
 }
 
 .project-link {
-  margin: 0;
-  border: 0;
   padding: 0;
 }
 
